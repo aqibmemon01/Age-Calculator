@@ -1,0 +1,96 @@
+body {
+	background-color:rgb(92, 145, 161); 
+   }
+td { padding:20px;
+	}
+  .button {
+  position: relative;
+  margin:2% auto 0 15%; 
+  background-color: rgb(0, 38, 255);
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}	
+.indate{
+	width:200px;
+  border:2px solid  rgb(4, 0, 255);
+  border-radius: 4px;
+  padding: 3px;
+  font-size: 15px;
+  margin: 0 0% 2% 0%;
+
+}
+.text{
+  margin: 5% 0% 0% 3%;
+  font-size: 20px;
+
+}
+#aqib{
+  font-size: 25px;
+  position: relative;
+  top: -42px;
+  left: 105px;
+
+}
+#develope{
+  font-size: 20px;
+}
+#heading{
+  font-size: 50px;
+  margin-left: 7%;  
+  
+}
+#bigdiv{
+  position: absolute;
+  top: 4%;
+  left: 15%;
+}
+#formdiv{
+   margin-top: -15%;
+}
+.head{
+  background-color:rgb(42, 42, 245);
+  color:white;
+  border: 5px dotted yellow;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:cursive;
+
+}
+.result{
+  background-color:rgb(152, 176, 253);
+  border: 5px dotted rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+}
+#last{
+	margin:0.3% 0 2% 8%;
+}
